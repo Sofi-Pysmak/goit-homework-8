@@ -5,39 +5,44 @@
   @media screen and (min-width: $desktop) {
     display: block;
   }
+ 
 }
 
 .work-list {
   @extend %list;
 
   display: flex;
-  flex-wrap: wrap;
-
+ 
   margin-left: -15px;
   margin-right: -15px;
-}
+
 
 .work-item {
-  position: relative;
+  position: relative;  
   margin-left: 15px;
   margin-right: 15px;
+ 
+    }
 }
+
 
 .work-text {
   position: absolute;
-  right: 0;
   bottom: 0;
   left: 0;
-  width: 370px;
-  height: 70px;
-  padding-top: 27px;
 
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  font-weight: 700;
+  line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 700;
   color: $white-text-color;
   background: rgba(47, 48, 58, 0.8);
   }
+
 // .work-list {
 //   display: flex;
 

@@ -1337,13 +1337,11 @@ body .modal-open {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
 }
 
-.work-item {
+.work-list .work-item {
   position: relative;
   margin-left: 15px;
   margin-right: 15px;
@@ -1351,15 +1349,15 @@ body .modal-open {
 
 .work-text {
   position: absolute;
-  right: 0;
   bottom: 0;
   left: 0;
-  width: 370px;
-  height: 70px;
+  width: 100%;
   padding-top: 27px;
+  padding-bottom: 27px;
+  font-weight: 700;
+  line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 700;
   color: #ffffff;
   background: rgba(47, 48, 58, 0.8);
 }

@@ -1,4 +1,4 @@
-.card-set {
+.card-list {
   @extend %list;
   display: flex;
   flex-wrap: wrap;
@@ -7,9 +7,11 @@
   @media screen and (max-width: 767px) {
     margin-top: 40px;
   }
-}
 
-.card-set-item {
+
+.card-list-item {
+  display: flex;
+  flex-wrap: wrap;
   width: 450px;
   margin: 15px;
 
@@ -28,9 +30,9 @@
   @media screen and (min-width: $desktop) {
     width: 370px;
   }
-}
+}}
 
-.card-set__link {
+.card-list-link {
   @extend %link;
 }
 

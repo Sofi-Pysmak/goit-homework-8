@@ -1,0 +1,63 @@
+.work {
+  display: none;
+  padding-bottom: 94px;
+
+  @media screen and (min-width: $desktop) {
+    display: block;
+  }
+}
+
+.work-list {
+  @extend %list;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.work-item {
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.work-text {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 370px;
+  height: 70px;
+  padding-top: 27px;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $white-text-color;
+  background: rgba(47, 48, 58, 0.8);
+  }
+// .work-list {
+//   display: flex;
+
+//    .label {
+//     position: absolute;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     width: 370px;
+//     height: 70px;
+//     padding-top: 27px;
+  
+//     text-align: center;
+//     text-transform: uppercase;
+//     font-weight: 700;
+//     color: $white-text-color;
+//     background: rgba(47, 48, 58, 0.8);
+//   }
+//   .item {
+//     position: relative;
+//   }
+// }
+// © 2021 GitHub, Inc.
